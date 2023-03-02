@@ -1,4 +1,4 @@
-function factorial(num) {
+factorial = (num) => {
   let result = num
   if (num === 0 || num === 1)
     return 1

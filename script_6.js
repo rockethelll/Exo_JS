@@ -1,4 +1,4 @@
-function dnaToProtein(dna) {
+dnaToProtein = (dna) => {
   proteinArray = []
   for (let i = 0; i < dna.length; i+=3) {
     codon = dna.slice(i, i + 3)
