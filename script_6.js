@@ -13,6 +13,7 @@ dnaToProtein = (dna) => {
       proteinArray.push(protein)
     } else if ( codon === 'UUU' || codon === 'UUC') {
       protein = 'Phénylalanine'
+      proteinArray.push(protein)
     } else if (codon === 'CGU' || codon === 'CGC' || codon === 'CGA' || codon === 'CGG' || codon === 'AGA' || codon === 'AGG') {
       protein = 'Arginine'
       proteinArray.push(protein)
